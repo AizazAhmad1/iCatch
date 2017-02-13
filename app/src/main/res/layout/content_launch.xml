@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="@color/black" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <LinearLayout app:orientation="vertical" app:id="@+id/launch_view" app:layout_width="match_parent" app:layout_height="match_parent">
+        <ListView app:orientation="vertical" app:id="@+id/cam_slot_listview" app:padding="16dp" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:dividerHeight="5dp" app:choiceMode="singleChoice" app:layout_weight="3.0" />
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="2.0">
+            <TextView app:textSize="20sp" app:textColor="@color/white" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:background="#1d1d1d" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="5dp" app:text="@string/title_local_media" />
+            <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_margin="10dp" app:baselineAligned="false" app:weightSum="2.0">
+                <RelativeLayout app:background="@drawable/round_angle_view" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginRight="10dp" app:layout_weight="1.0">
+                    <com.icatch.ismartdv2016.ExtendComponent.RoundAngleImageView app:id="@+id/local_photo" app:layout_width="match_parent" app:layout_height="match_parent" app:src="@drawable/local_default_thumbnail" app:scaleType="centerCrop" app:roundWidth="15dp" app:roundHeight="15dp" />
+                    <TextView app:textSize="15sp" app:textColor="@color/white" app:id="@+id/no_local_photos" app:visibility="visible" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/no_files_found" app:layout_centerInParent="true" />
+                    <TextView app:textSize="18sp" app:textColor="@color/white" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/title_photo" app:layout_alignParentBottom="true" />
+                </RelativeLayout>
+                <RelativeLayout app:background="@drawable/round_angle_view" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginLeft="10dp" app:layout_weight="1.0">
+                    <com.icatch.ismartdv2016.ExtendComponent.RoundAngleImageView app:id="@+id/local_video" app:layout_width="match_parent" app:layout_height="match_parent" app:src="@drawable/local_default_thumbnail" app:scaleType="centerCrop" app:roundWidth="15dp" app:roundHeight="15dp" />
+                    <TextView app:textSize="15sp" app:textColor="@color/white" app:id="@+id/no_local_videos" app:visibility="visible" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/no_files_found" app:layout_centerInParent="true" />
+                    <TextView app:textSize="18sp" app:textColor="@color/white" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/title_video" app:layout_alignParentBottom="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout app:id="@+id/launch_setting_frame" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent" />
+</RelativeLayout>

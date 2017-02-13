@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:orientation="horizontal" android:id="@+id/pbMainExHead" android:background="@color/setting_overlay" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4101" android:layout_alignParentTop="true">
+        <ProgressBar android:id="@+id/progressBar1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="?unknown_attr_ref: 1010079" />
+        <Button android:id="@+id/chooseBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.icatch.wificam.app.view.FileListView android:id="@+id/file_list_preview" android:layout_width="match_parent" android:layout_height="wrap_content" android:dividerHeight="1dp" android:layout_above="@+id/pbMainExFoot" android:layout_below="@+id/pbMainExHead" />
+    <RelativeLayout android:orientation="horizontal" android:id="@+id/pbMainExFoot" android:background="@color/white" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4101" android:layout_alignParentBottom="true">
+        <Button android:id="@+id/downloadBtn" android:background="@drawable/mpb_download_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <Button android:id="@+id/viewStyle" android:background="@drawable/ftp_switch_showstyle_toggle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

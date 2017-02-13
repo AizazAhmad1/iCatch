@@ -1,0 +1,48 @@
+package com.icatch.wificam.customer.type;
+
+public class ICatchEventID {
+    public static final int ICATCH_EVENT_DEVICE_SCAN_ADD = 85;
+    public static final int ICH_EVENT_AUDIO_PLAYBACK_CACHING_CHANGED = 72;
+    public static final int ICH_EVENT_AUDIO_PLAYBACK_CACHING_PROGRESS = 71;
+    public static final int ICH_EVENT_AUDIO_STREAM_PLAYING_ENDED = 68;
+    public static final int ICH_EVENT_AUDIO_STREAM_STATUS = 89;
+    public static final int ICH_EVENT_BATTERY_LEVEL_CHANGED = 36;
+    public static final int ICH_EVENT_BURST_NUMBER_PROP_CHANGED = 55;
+    public static final int ICH_EVENT_CAPTURE_COMPLETE = 35;
+    public static final int ICH_EVENT_CAPTURE_DELAY_PROP_CHANGED = 51;
+    public static final int ICH_EVENT_CAPTURE_START = 82;
+    public static final int ICH_EVENT_CONNECTION_DISCONNECTED = 74;
+    public static final int ICH_EVENT_CONNECTION_INITIALIZE_FAILED = 76;
+    public static final int ICH_EVENT_CONNECTION_INITIALIZE_SUCCEED = 75;
+    public static final int ICH_EVENT_DEVICE_INFO_CHANGED = 49;
+    public static final int ICH_EVENT_FILE_ADDED = 1;
+    public static final int ICH_EVENT_FILE_DOWNLOAD = 99;
+    public static final int ICH_EVENT_FILE_INFO_CHANGED = 3;
+    public static final int ICH_EVENT_FILE_REMOVED = 2;
+    public static final int ICH_EVENT_FW_UPDATE_CHECK = 96;
+    public static final int ICH_EVENT_FW_UPDATE_COMPLETED = 97;
+    public static final int ICH_EVENT_FW_UPDATE_POWEROFF = 98;
+    public static final int ICH_EVENT_IMAGE_SIZE_PROP_CHANGED = 52;
+    public static final int ICH_EVENT_LIGHT_FREQUENCY_PROP_CHANGED = 54;
+    public static final int ICH_EVENT_MEDIA_STREAM_CLOSED = 66;
+    public static final int ICH_EVENT_SDCARD_ERROR = 18;
+    public static final int ICH_EVENT_SDCARD_FULL = 17;
+    public static final int ICH_EVENT_SDCARD_INFO_CHANGED = 20;
+    public static final int ICH_EVENT_SDCARD_REMOVED = 19;
+    public static final int ICH_EVENT_SERVER_STREAM_ERROR = 65;
+    public static final int ICH_EVENT_TIMELAPSE_STOP = 81;
+    public static final int ICH_EVENT_TUTK_MODE_CHANGED = 86;
+    public static final int ICH_EVENT_TUTK_SETUP_PROGRESS = 87;
+    public static final int ICH_EVENT_UNDEFINED = 255;
+    public static final int ICH_EVENT_VIDEO_OFF = 34;
+    public static final int ICH_EVENT_VIDEO_ON = 33;
+    public static final int ICH_EVENT_VIDEO_PLAYBACK_CACHING_CHANGED = 70;
+    public static final int ICH_EVENT_VIDEO_PLAYBACK_CACHING_PROGRESS = 69;
+    public static final int ICH_EVENT_VIDEO_SIZE_PROP_CHANGED = 53;
+    public static final int ICH_EVENT_VIDEO_STREAM_PLAYING_ENDED = 67;
+    public static final int ICH_EVENT_VIDEO_STREAM_STATUS = 88;
+    public static final int ICH_EVENT_VIDEO_THUMB_DONE = 101;
+    public static final int ICH_EVENT_VIDEO_THUMB_READY = 100;
+    public static final int ICH_EVENT_VIDEO_TRIM_DONE = 102;
+    public static final int ICH_EVENT_WHITE_BALANCE_PROP_CHANGED = 50;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="horizontal" app:background="@drawable/round_angle_view" app:layout_width="match_parent" app:layout_height="wrap_content"
+    <LinearLayout app:orientation="vertical" app:id="@+id/slot_layout" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="2.0"
+        <LinearLayout app:orientation="horizontal" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0">
+            <ImageView app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/slot_connect_sign" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="5dp" app:src="@drawable/ic_add_circle_24dp" />
+            <TextView app:textSize="15sp" app:textColor="@color/greyish_white" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/slot_connect_state" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginLeft="5dp" app:text="Disconnected" />
+        </LinearLayout>
+        <TextView app:textSize="18sp" app:textColor="@color/white" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/slot_camera_name" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_marginLeft="5dp" app:text="WDV8000_FDG" app:layout_weight="1.0" />
+    </LinearLayout>
+    <RelativeLayout app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="match_parent" app:layout_weight="1.0">
+        <com.icatch.ismartdv2016.ExtendComponent.RoundAngleImageView app:id="@+id/slotPhoto" app:background="#1d1d1d" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_margin="5dp" app:scaleType="centerCrop" app:roundWidth="15dp" app:roundHeight="15dp" />
+        <ImageView app:id="@+id/delete_camera" app:background="@drawable/ic_remove_circle_red_24dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_alignParentTop="true" app:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

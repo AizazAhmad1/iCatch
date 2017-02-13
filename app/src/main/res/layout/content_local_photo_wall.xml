@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="@color/white" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <com.tonicartos.widget.stickygridheaders.StickyGridHeadersGridView app:id="@+id/local_photo_wall_grid_view" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="match_parent" app:horizontalSpacing="1dp" app:verticalSpacing="1dp" app:numColumns="UNKNOWN_DATA_0x4" />
+    <FrameLayout app:id="@+id/local_photo_wall_list_layout" app:layout_width="match_parent" app:layout_height="match_parent">
+        <ListView app:id="@+id/local_photo_wall_list_view" app:visibility="visible" app:layout_width="match_parent" app:layout_height="match_parent" app:divider="@color/divider" app:dividerHeight="0.5dp" />
+        <include layout="@layout/item_local_photo_wall_list_header" />
+    </FrameLayout>
+</RelativeLayout>

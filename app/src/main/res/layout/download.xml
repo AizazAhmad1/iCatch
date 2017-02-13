@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" custom:orientation="horizontal" custom:padding="10dp" custom:descendantFocusability="blocksDescendants" custom:layout_width="match_parent" custom:layout_height="wrap_content"
+    <LinearLayout custom:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" custom:orientation="vertical" custom:id="@+id/download_state_layout" custom:layout_width="UNKNOWN_DATA_0x1" custom:layout_height="wrap_content" custom:layout_weight="1.0">
+        <TextView custom:textSize="@dimen/first_title_size" custom:textColor="@color/primary_text" custom:id="@+id/fileName" custom:layout_width="match_parent" custom:layout_height="wrap_content" custom:layout_marginLeft="10dp" custom:text="filename" custom:layout_alignParentLeft="true" />
+        <TextView custom:textSize="@dimen/second_title_size" custom:textColor="@color/secondary_text" custom:id="@+id/downloadStatus" custom:layout_width="match_parent" custom:layout_height="wrap_content" custom:layout_marginLeft="10dp" custom:text="Status" />
+        <com.icatch.ismartdv2016.ExtendComponent.NumberProgressBar custom:id="@+id/numberbar" custom:layout_width="match_parent" custom:layout_height="wrap_content" custom:layout_marginLeft="10dp" custom:layout_alignParentLeft="true" custom:progress_current="0" style="@style/NumberProgressBar_Relax_Blue" />
+    </LinearLayout>
+    <ImageButton custom:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" custom:id="@+id/doAction" custom:background="@drawable/selector_transparent2gray" custom:padding="10dp" custom:focusable="false" custom:layout_width="wrap_content" custom:layout_height="wrap_content" custom:src="@drawable/cancel_task" />
+</LinearLayout>

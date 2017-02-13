@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@+id/downloadStatus" android:background="@color/white" android:padding="10dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:divider="@color/divider" android:dividerHeight="1dp" android:choiceMode="singleChoice" android:minHeight="200dp" android:layout_weight="1.0" android:layout_below="@+id/message" />
+    <TextView android:textSize="15sp" android:textColor="@color/primary_light" android:id="@+id/message" android:background="@color/primary_dark" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="test" android:layout_below="@+id/title" />
+</LinearLayout>

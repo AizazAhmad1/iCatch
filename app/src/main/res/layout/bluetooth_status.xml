@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_centerVertical="true">
+    <TextView android:textSize="20sp" android:textColor="@color/lightblue" android:id="@+id/bluetooth_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="bluetooth device" />
+    <TextView android:textSize="15sp" android:textColor="@color/black" android:id="@+id/bluetooth_mac" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="bluetooth mac" android:layout_below="@+id/bluetooth_name" android:layout_alignParentLeft="true" />
+    <TextView android:textSize="15sp" android:textColor="@color/red" android:id="@+id/bluetooth_connect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Unbinded" android:layout_below="@+id/bluetooth_name" android:layout_alignParentRight="true" />
+</RelativeLayout>

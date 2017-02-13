@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <xml name="pref_data_sync">res/xml/pref_data_sync.xml</xml>
+    <xml name="pref_general">res/xml/pref_general.xml</xml>
+    <xml name="pref_headers">res/xml/pref_headers.xml</xml>
+    <xml name="pref_notification">res/xml/pref_notification.xml</xml>
+</resources>

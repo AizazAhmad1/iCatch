@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <com.tonicartos.widget.stickygridheaders.StickyGridHeadersGridView android:id="@+id/multi_pb_photo_grid_view" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:horizontalSpacing="1dp" android:verticalSpacing="1dp" android:numColumns="UNKNOWN_DATA_0x4" />
+        <FrameLayout android:id="@+id/multi_pb_photo_list_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ListView android:id="@+id/multi_pb_photo_list_view" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@color/divider" android:dividerHeight="0.5dp" />
+            <include layout="@layout/item_local_photo_wall_list_header" />
+        </FrameLayout>
+    </RelativeLayout>
+</LinearLayout>

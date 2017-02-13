@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:background="@color/strip" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18sp" android:textColor="@color/secondary_text" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/setting_title" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginLeft="16dp" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/item_layout" android:background="@drawable/selector_white" android:padding="10dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f090063">
+        <TextView android:textSize="@dimen/first_title_size" android:textColor="@color/primary_text" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/item_text" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1" android:text="Title" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/second_title_size" android:textColor="@color/cambridge_blue" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/item_value" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1" android:text="value" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

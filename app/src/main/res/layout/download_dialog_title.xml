@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@drawable/actionbar_border" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/first_title_size" android:textColor="@color/primary_light" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/download_manager" android:layout_centerHorizontal="true" />
+    <ImageButton android:id="@+id/exit" android:background="@drawable/selector_transparent2gray" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close_black" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

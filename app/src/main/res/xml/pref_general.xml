@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:title="@string/pref_title_social_recommendations" android:key="example_switch" android:summary="@string/pref_description_social_recommendations" android:defaultValue="true" />
+    <EditTextPreference android:maxLines="1" android:singleLine="true" android:selectAllOnFocus="true" android:capitalize="words" android:title="@string/pref_title_display_name" android:key="example_text" android:defaultValue="@string/pref_default_display_name" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|numberDecimal|phone" />
+    <ListPreference android:entries="@array/pref_example_list_titles" android:title="@string/pref_title_add_friends_to_messages" android:key="example_list" android:defaultValue="-1" android:positiveButtonText="@staggeredgridlayoutmanager/HORIZONTAL" android:negativeButtonText="@staggeredgridlayoutmanager/HORIZONTAL" android:entryValues="@array/pref_example_list_values" />
+</PreferenceScreen>

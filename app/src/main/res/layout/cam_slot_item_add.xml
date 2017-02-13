@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="horizontal" app:background="@drawable/round_angle_view" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="10dp" app:layout_marginTop="5dp"
+    <LinearLayout app:orientation="vertical" app:id="@+id/slot_layout_add" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="2.0"
+        <LinearLayout app:orientation="horizontal" app:layout_width="wrap_content" app:layout_height="match_parent">
+            <ImageView app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="5dp" app:src="@drawable/add_slot" />
+            <TextView app:textSize="18sp" app:textColor="#8b8b8b" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/slot_add_camera" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginLeft="5dp" app:text="Add New Camera" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="match_parent" app:layout_weight="1.0">
+        <com.icatch.ismartdv2016.ExtendComponent.RoundAngleImageView app:background="#1d1d1d" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_margin="5dp" app:scaleType="centerCrop" app:roundWidth="15dp" app:roundHeight="15dp" />
+    </LinearLayout>
+</LinearLayout>

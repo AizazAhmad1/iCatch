@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" ProgressWheel:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ProgressWheel:orientation="vertical" ProgressWheel:id="@+id/layout_progress_wheel" ProgressWheel:layout_width="match_parent" ProgressWheel:layout_height="match_parent">
+    <com.icatch.ismartdv2016.ExtendComponent.ProgressWheel ProgressWheel:id="@+id/pw_spinner" ProgressWheel:layout_width="UNKNOWN_DATA_0x9601" ProgressWheel:layout_height="UNKNOWN_DATA_0x9601" ProgressWheel:textColor="#222222" ProgressWheel:textSize="14sp" ProgressWheel:barColor="#339bb9" ProgressWheel:rimColor="#44000000" ProgressWheel:rimWidth="25dp" ProgressWheel:spinSpeed="3dp" ProgressWheel:barWidth="25dp" ProgressWheel:barLengthP="60dp" />
+</LinearLayout>

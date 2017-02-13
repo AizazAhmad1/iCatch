@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="@color/black" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <FrameLayout app:layout_width="match_parent" app:layout_height="match_parent">
+        <com.icatch.ismartdv2016.ExtendComponent.HackyViewPager app:id="@+id/viewpager" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_centerInParent="true" />
+        <LinearLayout app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:id="@+id/pb_bottom_layout" app:background="@color/half_transparent_grey" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <ImageButton app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/photo_pb_delete" app:background="@drawable/selector_transparent2gray" app:padding="10dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/ic_delete_white_24dp" app:layout_weight="1.0" />
+            <ImageButton app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/photo_pb_download" app:background="@drawable/selector_transparent2gray" app:padding="10dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/ic_file_download_white_24dp" app:layout_weight="1.0" />
+        </LinearLayout>
+        <RelativeLayout app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/pb_top_layout" app:background="@color/half_transparent_grey" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0100b6">
+            <ImageButton app:id="@+id/pb_back" app:background="@drawable/selector_transparent2gray" app:padding="14dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/ic_arrow_back_white_24dp" app:layout_alignParentLeft="true" app:layout_centerVertical="true" />
+            <TextView app:textSize="16sp" app:textColor="@color/graywhite" app:id="@+id/pb_index_info" app:padding="10dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_centerInParent="true" />
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

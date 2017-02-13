@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <raw name="camera_click">res/raw/camera_click.ogg</raw>
+    <raw name="camera_timer">res/raw/camera_timer.WAV</raw>
+    <raw name="captureburst">res/raw/captureburst.WAV</raw>
+    <raw name="captureshutter">res/raw/captureshutter.WAV</raw>
+    <raw name="delay_beep">res/raw/delay_beep.wav</raw>
+    <raw name="focusbeep">res/raw/focusbeep.ogg</raw>
+    <raw name="shutter">res/raw/shutter.wav</raw>
+    <raw name="sphost">res/raw/sphost.BRN</raw>
+</resources>

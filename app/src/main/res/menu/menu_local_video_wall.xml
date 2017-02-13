@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_view_grid_white_24dp" app:id="@+id/menu_video_wall_type" app:orderInCategory="100" app:title="Grid" app:showAsAction="always" />
+</menu>

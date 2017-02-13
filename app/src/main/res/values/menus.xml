@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="menu_launch">res/menu/menu_launch.xml</menu>
+    <menu name="menu_local_photo_wall">res/menu/menu_local_photo_wall.xml</menu>
+    <menu name="menu_local_video_wall">res/menu/menu_local_video_wall.xml</menu>
+    <menu name="menu_multi_pb">res/menu/menu_multi_pb.xml</menu>
+    <menu name="menu_preview">res/menu/menu_preview.xml</menu>
+</resources>

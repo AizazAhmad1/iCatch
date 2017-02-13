@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/greyish_white" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:id="@+id/local_video_wall_header_layout" layout="@layout/item_local_photo_wall_list_header" />
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/local_video_item_selector" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/local_video_wall_header_layout">
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/local_video_wall_list_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_check_box_blank_grey" />
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/local_video_thumbnail_list" android:layout_width="UNKNOWN_DATA_0x3c01" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_margin="5dp" android:src="@drawable/pictures_no" android:scaleType="centerCrop" />
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x1901" android:layout_height="UNKNOWN_DATA_0x1901" android:src="@drawable/videooverlay" />
+        </FrameLayout>
+        <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/first_title_size" android:textColor="@color/dark_grey" android:id="@+id/local_video_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginBottom="6dp" android:text="photo name" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/local_video_name">
+                <TextView android:textSize="@dimen/second_title_size" android:textColor="@color/gray" android:id="@+id/local_video_size" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="12.5M" />
+                <TextView android:textSize="@dimen/second_title_size" android:textColor="@color/gray" android:id="@+id/local_video_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="2015-09-02 11:33" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
